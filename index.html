@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="gamescript.js"></script>
+</head>
+<body>
+        <div class="heading">Let's have a game of 2048</div>
+      
+        <div class="resultout" id="result"></div>
+        <table class="tablealign">
+            <tbody>
+                <tr>
+                <td><div class="instructions">
+                    <ul>⬅️➡️⬇️⬆️<br>Use the arrow keys to shift rows or columns</ul>
+                    <ul>2️⃣➕2️⃣=4️⃣<br>Equal numbers add up</ul>
+                    <ul>2️⃣0️⃣4️⃣8️⃣ = 🥳<br>Try to reach 2048 to win</ul> 
+                    <ul>🤷‍♂️🤷‍♀️<br>If you run out of zeros left you loose</ul>
+                </div></td>
+
+                <td><div class="grid"></div></td>
+
+                <td><div class="instructions">
+                    <ul>2048 was coded by Gabriele Cirulli in 2014 at age 19</ul>
+                    <ul>Cirulli was inspired by a game called 1024 which was inspired by a game called <i>Threes</i></ul>
+                    <ul>His "Clone" reached 4 million hits in just a week and inspired many others to clone this hit themselves</ul> 
+                    <ul>Despite the vast popularity, Gabriele Cirulli always kept the game free and declined to take any money</ul>
+                </div></td>
+                </tr>
+            </tbody> 
+        </table>
+
+      
+        <div class="scorecontainer">
+            <div class="scoretitle">Score</div>
+            <span class="scoreout" id="score">0</span>
+        </div>
+        
+
+   
+</body>
+</html>

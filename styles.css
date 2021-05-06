@@ -1,0 +1,107 @@
+body {
+    background: rgb(9,65,221);
+background: radial-gradient(90deg, rgba(9,65,221,1) 0%, rgba(10,52,167,1) 35%, rgba(35,131,133,1) 63%, rgba(203,203,179,1) 69%, rgba(10,52,167,1) 100%);
+}
+
+.heading {
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    font-size: 90px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.grid {
+
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+    background-color: #0a34a7a6;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.grid div {
+    width: 100px;
+    height: 100px;
+    border: 10px solid;
+    border-color: #0941dd;
+    border-radius: 15px;
+    background-color: #238385; 
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+.scoreout {
+    width: auto;
+    height: auto;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 50px;
+    
+
+}
+
+
+.scoretitle {
+    width: 200px;
+    height: 150px;
+    width: 60px;
+    height: 20px;
+    font-size: 80px;
+    font-weight: bold;
+    padding-right: 300px;
+}
+
+.scorecontainer {
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.instructions {
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    background-color:beige; 
+    margin: 0 auto;
+    margin-top: 100px;
+    
+}
+
+.instructions ul {
+    background-color: beige; 
+    border-radius: 8px;
+    text-align: center;
+    font-weight: bold;
+    justify-self: center;
+    font-size: 22px;
+    padding-right: 35px;
+}
+
+.resultout {
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    font-size: 85px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tablealign {
+    display: flex;
+    justify-content: center;
+}
